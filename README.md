@@ -3,10 +3,12 @@
 This application highlights how `Mobx` and `Mobx-State-Tree` behaves.
 
 **MobX stores**
+
     1. src/store/ToDoStore.ts<br/>
     2. src/store/TemperatureStore.ts
 
 **MST Stores**
+
     1. src/store/ToDoStoreMST.ts
 
 **Components and Store Linking**
