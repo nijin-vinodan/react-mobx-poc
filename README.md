@@ -37,8 +37,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How this Example Works
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+There are two stores here. Mobx and Mobx-State-Tree
+
+MobX stores
+    1. src/store/ToDoStore.ts
+    2. src/store/TemperatureStore.ts
+
+MST Stores
+    1. src/store/ToDoStoreMST.ts
+
+**Components and Store Linking**
+
+AlphaComponent, BetaComponent is configured with `ToDoStore.ts`.
+DeltaComponent is configured with `TemperatureStore.ts`
+GammaComponent is configured with `ToDoStoreMST.ts`
+
+Look out for the console.log in browser to see how MobX behaves with respect to `@observable`, `@computed`, `@action`
