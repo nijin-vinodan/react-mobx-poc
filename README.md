@@ -2,9 +2,9 @@
 
 This application highlights how `Mobx` and `Mobx-State-Tree` behaves.
 
-**MobX stores**
+**MobX Stores**
 
-    1. src/store/ToDoStore.ts<br/>
+    1. src/store/ToDoStore.ts
     2. src/store/TemperatureStore.ts
 
 **MST Stores**
